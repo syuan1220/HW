@@ -1,147 +1,34 @@
-body {
-  font-family: "Noto Sans TC", sans-serif;
-  line-height: 1.5;
+.container {
+  width: 856px;
+  margin: 0 auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-p,
-a {
-  line-height: 1.2;
-  letter-spacing: 0.05em;
+.brand-story-link a {
+  color: var(--primary-400);
+  text-underline-offset: 4px;
+  text-decoration: underline;
 }
 
-h1 {
-  font-size: 40px;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: 32px;
-}
-
-h3 {
-  font-size: 28px;
-  font-weight: bold;
-}
-
-h4 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 24px;
-}
-
-h5 {
-  font-size: 20px;
-  font-weight: bold;
-  color: #57a203;
-}
-
-a {
-  font-weight: 500;
-}
-
-.hero {
+.header {
   background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true");
-  background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
-  color: white;
+  background-size: cover;
+  background-position: center;
+  padding: 152px 0;
   text-align: center;
-  padding: 151px 0;
-  margin-bottom: 64px;
-}
-.hero h1 {
-  padding-bottom: 16px;
 }
 
-.brand-intro {
-  background-color: #f5fee7;
-  padding: 32px;
-  max-width: 856px;
-  text-align: center;
-  margin: 0 auto;
-}
-.brand-intro h5 {
-  margin-bottom: 8px;
-}
-.brand-intro p {
-  font-size: 16px;
-  padding-top: 4px;
-  line-height: 1.5;
+.eng-title {
+  font-size: 28px;
 }
 
-.shoes-img {
-  margin: 48px 0 24px 0;
-}
-.shoes-img img {
-  margin: 0 auto;
-  display: block;
+.intro img {
   width: 1076px;
-  height: 717px;
+  margin-left: -110px;
+  margin-right: -110px;
 }
 
-.content-container {
-  max-width: 856px;
-  margin: 0 auto;
-}
-
-.section-block {
-  border-bottom: 1px solid #dee2e6;
-  padding-bottom: 48px;
-  margin-bottom: 48px;
-}
-.section-block p {
-  font-size: 16px;
-  margin-top: 12px;
-  line-height: 1.5;
-}
-
-.brand-about p {
-  margin-top: 16px;
-}
-
-.brand-concept ul li {
-  border-left: 3px solid #dee2e6;
+.brand-concept {
+  border-left: 3px solid var(--neutral-300);
   padding-left: 12px;
-}
-
-.brand-story a {
-  text-decoration: none;
-}
-
-.brand-story-link {
-  font-size: 16px;
-  color: #57a203;
-  display: inline-block;
-  padding: 8px 0 12px 0;
-}
-.brand-story-link span {
-  line-height: 1.5;
-  padding-bottom: 4px;
-  border-bottom: 1px solid #57a203;
-}
-
-a:hover {
-  color: #477a11;
-}
-
-a:focus {
-  color: #477a11;
-  font-weight: bold;
-}
-
-.footer {
-  background-color: #f8f9fa;
-  max-height: 174px;
-  padding: 64px 0;
-  text-align: center;
-}
-.footer p {
-  font-size: 14px;
-  color: #6c757d;
-  padding: 4px 0;
 }

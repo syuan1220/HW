@@ -143,7 +143,8 @@ body {
   color: var(--neutral-900);
 }
 
-.container {
+.nav-container,
+.footer-container {
   width: 1296px;
   margin: 0 auto;
 }
@@ -192,7 +193,6 @@ body {
 
 /* 圖片 */
 img {
-  max-width: 100%;
   vertical-align: middle;
 }
 
@@ -228,16 +228,10 @@ img {
 }
 
 /* 文字 */
-a {
-  color: var(--neutral-900);
-  text-decoration: none;
-  display: block;
-  font-weight: 500;
-}
-
 .h1 {
   font-size: 40px;
-  font-weight: bold;
+  line-height: 1.2;
+  font-weight: 700;
 }
 
 .h2 {
@@ -274,6 +268,13 @@ a {
   font-size: 14px;
 }
 
+a {
+  color: var(--neutral-900);
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+}
+
 .footer {
   text-align: center;
 }
@@ -299,11 +300,19 @@ a {
   align-items: center;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
 
 /* 間距 */
+.mt-64 {
+  margin-top: 64px;
+}
+
 .mr-8 {
   margin-right: 8px;
 }
@@ -364,6 +373,10 @@ a {
   padding: 12px;
 }
 
+.p-32 {
+  padding: 32px;
+}
+
 .py-8 {
   padding: 8px 0;
 }
@@ -400,10 +413,6 @@ a {
   padding-top: 48px;
 }
 
-.pt-64 {
-  padding-top: 64px;
-}
-
 .pr-8 {
   padding-right: 8px;
 }
@@ -417,6 +426,10 @@ a {
 }
 
 /* 樣式 */
+.bg-primary-100 {
+  background-color: var(--primary-100);
+}
+
 .bg-primary-200 {
   background-color: var(--primary-200);
 }
@@ -435,6 +448,10 @@ a {
 
 .text-danger-300 {
   color: var(--danger-300);
+}
+
+.text-white {
+  color: white;
 }
 
 /* 元件 */
@@ -475,5 +492,9 @@ a {
 }
 
 .section-lined {
+  border-bottom: 1px solid var(--neutral-300);
+}
+
+.footer-lined {
   border-top: 1px solid var(--neutral-300);
 }
